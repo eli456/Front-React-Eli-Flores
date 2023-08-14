@@ -1,0 +1,43 @@
+  .pinterest-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #130101;
+    background-color: #bd0896;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .pinterest-btn:hover {
+    background-color: #d51394;
+  }
+
+  .cont-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .fly {
+    animation: fly-in 0.5s ease-in-out;
+  }
+
+  @keyframes fly-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
